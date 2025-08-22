@@ -1,0 +1,66 @@
+package main
+
+import (
+	"github.com/amazon-opensearch-service/mcp-server/config"
+	"github.com/amazon-opensearch-service/mcp-server/models"
+	tools__2021_01_01 "github.com/amazon-opensearch-service/mcp-server/tools/_2021_01_01"
+)
+
+func GetAll(cfg *config.APIConfig) []models.Tool {
+	return []models.Tool{
+		tools__2021_01_01.CreateDeleteinboundconnectionTool(cfg),
+		tools__2021_01_01.CreateStartservicesoftwareupdateTool(cfg),
+		tools__2021_01_01.CreateListdomainsforpackageTool(cfg),
+		tools__2021_01_01.CreatePurchasereservedinstanceofferingTool(cfg),
+		tools__2021_01_01.CreateDescribeinstancetypelimitsTool(cfg),
+		tools__2021_01_01.CreateAddtagsTool(cfg),
+		tools__2021_01_01.CreateDescribevpcendpointsTool(cfg),
+		tools__2021_01_01.CreateCreatedomainTool(cfg),
+		tools__2021_01_01.CreateDescribepackagesTool(cfg),
+		tools__2021_01_01.CreateGetupgradehistoryTool(cfg),
+		tools__2021_01_01.CreateListinstancetypedetailsTool(cfg),
+		tools__2021_01_01.CreateGetpackageversionhistoryTool(cfg),
+		tools__2021_01_01.CreateRejectinboundconnectionTool(cfg),
+		tools__2021_01_01.CreateDescribereservedinstanceofferingsTool(cfg),
+		tools__2021_01_01.CreateCancelservicesoftwareupdateTool(cfg),
+		tools__2021_01_01.CreateDescribeoutboundconnectionsTool(cfg),
+		tools__2021_01_01.CreateListvpcendpointaccessTool(cfg),
+		tools__2021_01_01.CreateDescribedomainnodesTool(cfg),
+		tools__2021_01_01.CreateGetupgradestatusTool(cfg),
+		tools__2021_01_01.CreateListvpcendpointsTool(cfg),
+		tools__2021_01_01.CreateCreatevpcendpointTool(cfg),
+		tools__2021_01_01.CreateAssociatepackageTool(cfg),
+		tools__2021_01_01.CreateDescribedomainsTool(cfg),
+		tools__2021_01_01.CreateListscheduledactionsTool(cfg),
+		tools__2021_01_01.CreateDescribedryrunprogressTool(cfg),
+		tools__2021_01_01.CreateUpdatescheduledactionTool(cfg),
+		tools__2021_01_01.CreateDescribedomainhealthTool(cfg),
+		tools__2021_01_01.CreateGetcompatibleversionsTool(cfg),
+		tools__2021_01_01.CreateDescribereservedinstancesTool(cfg),
+		tools__2021_01_01.CreateListtagsTool(cfg),
+		tools__2021_01_01.CreateRevokevpcendpointaccessTool(cfg),
+		tools__2021_01_01.CreateUpdatepackageTool(cfg),
+		tools__2021_01_01.CreateDissociatepackageTool(cfg),
+		tools__2021_01_01.CreateCreatepackageTool(cfg),
+		tools__2021_01_01.CreateListpackagesfordomainTool(cfg),
+		tools__2021_01_01.CreateDescribeinboundconnectionsTool(cfg),
+		tools__2021_01_01.CreateAcceptinboundconnectionTool(cfg),
+		tools__2021_01_01.CreateDescribedomainautotunesTool(cfg),
+		tools__2021_01_01.CreateAuthorizevpcendpointaccessTool(cfg),
+		tools__2021_01_01.CreateDeleteoutboundconnectionTool(cfg),
+		tools__2021_01_01.CreateDescribedomainconfigTool(cfg),
+		tools__2021_01_01.CreateUpdatedomainconfigTool(cfg),
+		tools__2021_01_01.CreateDescribedomainchangeprogressTool(cfg),
+		tools__2021_01_01.CreateDeletepackageTool(cfg),
+		tools__2021_01_01.CreateUpdatevpcendpointTool(cfg),
+		tools__2021_01_01.CreateRemovetagsTool(cfg),
+		tools__2021_01_01.CreateUpgradedomainTool(cfg),
+		tools__2021_01_01.CreateDescribedomainTool(cfg),
+		tools__2021_01_01.CreateDeletedomainTool(cfg),
+		tools__2021_01_01.CreateCreateoutboundconnectionTool(cfg),
+		tools__2021_01_01.CreateListdomainnamesTool(cfg),
+		tools__2021_01_01.CreateListvpcendpointsfordomainTool(cfg),
+		tools__2021_01_01.CreateListversionsTool(cfg),
+		tools__2021_01_01.CreateDeletevpcendpointTool(cfg),
+	}
+}
